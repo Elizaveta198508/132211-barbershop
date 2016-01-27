@@ -11,7 +11,7 @@
 	   
 	   <ul>
 		  <li>
-		    <a href="#"><img src="img/barbershop-header-logo" width="100" height="50" alt="Барбершоп"></a>
+		    <a href="#"><img src="img/barbershop-header-logo.png" width="100" height="50" alt="Барбершоп"></a>
 		  </li>
 	      <li>
 		    <a href="#">Информация</a>
@@ -38,32 +38,35 @@
   </header>
   <main class="container">
     <div class="index-logo">
-	  <img stc="img/index-logo.png" width="368" height="204" alt="Барбершоп "Бородинский"">
+	  <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп &laquo;Бородинский &raquo;">
 	</div>
 	<section class="features">
 	  <div class="features-item">
 	    <b class="features-name">Быстро</b>
 		<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы счастливый обладатель стильной стрижки-минутки!</p>
 	  </div>
+	  <div class="features-item">
 	    <b class="features-name">Круто</b>
 	    <p>Забудьте как вы стриглись раньше! Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
 	  </div>
-	  <div>
+	  <div class="features-item">
 	  <b class="features-name">Быстро</b>
 	  <p>Наши мастера-профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+	</div>
 	</section>
-    <section>
-	  <div class:"index-content">
-	    <div class:index-content-left>
+
+	  <div class="index-content">
+	    <div class="index-content-left">
 		  <h2 class="index-content-title">Новости</h2>
-		    <ul class="news preview>
+		    <ul class="news preview">
 			  <li><p>Нам наконец-то завезли Ягермейстер! Теперь вы можете пропустить стаканчик во время стрижки.</p></li>
-			  <time datetime="2016-01-11">11 января</time>
-			  <li><p>В нашей команде пополнение! Борис "Бритва" Стригунец, обладатель множестватитулов и наград пополнил наши стройные ряды.</p></li>
+			  <time datetime ="2016-01-11">11 января</time>
+			  <li><p>В нашей команде пополнение! Борис &laquo;Бритва&raquo; Стригунец, обладатель множестватитулов и наград пополнил наши стройные ряды.</p></li>
 			  <time datetime="2016-01-18">18 января</time>
 			  
 			</ul>
 			<a class="btn" href="#">Все новости</a>
+	  </div>
 	  </div>
 	  <div class="index-content-right">
 	  <h2 class="index-content-title">Фотогалерея</h2>
@@ -76,7 +79,7 @@
 	  </div>
 	  <div class="index-content-right">
 	    <h2 class="index-content-title">Контактная информация</h2>
-	  <p>Барбершоп "Бородинский"<br>
+	  <p>Барбершоп 'Бородинский'<br>
 	  Адрес: г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8<br>
 	  Телефон: +7(812)666-02-66
 	  </p>
@@ -91,17 +94,18 @@
 	  <div class="index-content-right">
 	    <h2 class="index-content-title">Записаться</h2>
 		<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p>
-		<form class=:"appointment-form"> action="https://echo.htmlacademy.ru" method="post"</form>
+		<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
 		<input type="text" name="date" value="" placeholder="Дата">
-		<input type="text" name="date" value="" placeholder="Время">
-		<input type="text" name="date" value="" placeholder="Ваше имя">
-		<input type="tel" name="date" value="" placeholder="Телефон">
+		<input type="text" name="time" value="" placeholder="Время">
+		<input type="text" name="name" value="" placeholder="Ваше имя">
+		<input type="tel" name="phone" value="" placeholder="Телефон">
 	  <button class="btn" type="submit">Отправить</button>
+	  </form>
 	  
 	  
 	  
-        </form>
-      </div>
+        
+		</div>
 	  </div>
 	  
 	  
@@ -113,7 +117,7 @@
    <footer class="main-footer">
 	  <div class="container">
 	    <div class="footer-contacts">
-		  <p>Барбершоп "Бородинский"<br>
+		  <p>Барбершоп 'Бородинский'<br>
 		  Адрес: Санкт-Петербург, ул.Б.Конюшенная,Д.19/8<br>
 		    <a href="#">Как нас найти?</a><br>
 		  Телефон:+7(495)666-02-66</p>
